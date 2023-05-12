@@ -7,7 +7,25 @@
 SNP2Vec has been accepted by BioNLP 2022 and you can find the details in our paper <TODO>.
 If you are using any component on SNP2Vec including the token mapping resources, the cached chromosome matrix, or the Alzheimer's disease risk dataset in your work, please cite the following paper:
 ```
-<TODO>
+@inproceedings{cahyawijaya-etal-2022-snp2vec,
+    title = "{SNP}2{V}ec: Scalable Self-Supervised Pre-Training for Genome-Wide Association Study",
+    author = "Cahyawijaya, Samuel  and
+      Yu, Tiezheng  and
+      Liu, Zihan  and
+      Zhou, Xiaopu  and
+      Mak, Tze Wing Tiffany  and
+      Ip, Yuk Yu Nancy  and
+      Fung, Pascale",
+    booktitle = "Proceedings of the 21st Workshop on Biomedical Language Processing",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.bionlp-1.14",
+    doi = "10.18653/v1/2022.bionlp-1.14",
+    pages = "140--154",
+    abstract = "Self-supervised pre-training methods have brought remarkable breakthroughs in the understanding of text, image, and speech. Recent developments in genomics has also adopted these pre-training methods for genome understanding. However, they focus only on understanding haploid sequences, which hinders their applicability towards understanding genetic variations, also known as single nucleotide polymorphisms (SNPs), which is crucial for genome-wide association study. In this paper, we introduce SNP2Vec, a scalable self-supervised pre-training approach for understanding SNP. We apply SNP2Vec to perform long-sequence genomics modeling, and we evaluate the effectiveness of our approach on predicting Alzheimer{'}s disease risk in a Chinese cohort. Our approach significantly outperforms existing polygenic risk score methods and all other baselines, including the model that is trained entirely with haploid sequences.",
+}
 ```
 
 ## Repository Structure 
